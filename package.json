@@ -1,11 +1,23 @@
 {
   "name": "testing",
+  "private": true,
   "version": "1.0.0",
-  "description": "Testing exercises using the Jest testing library.",
-  "main": "main.js",
   "author": "Juan Perez Jr",
   "license": "MIT",
-  "private": true,
+  "description": "Testing exercises using the Jest testing library.",
+  "engines": {
+    "node": "14.17.0",
+    "npm": "6.14.13"
+  },
+  "homepage": "https://github.com/JRPerezJr/complete-junior-to-senior-testing-with-jest",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JRPerezJr/complete-junior-to-senior-testing-with-jest.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JRPerezJr/complete-junior-to-senior-testing-with-jest/issues"
+  },
+  "main": "main.js",
   "devDependencies": {
     "jest": "^27.0.4"
   },
