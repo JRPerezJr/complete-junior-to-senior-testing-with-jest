@@ -9,11 +9,11 @@ const googleDatabase = [
   'myfavoritecats.com',
 ];
 
-const googleSearch = searchInput => {
-  const matches = googleDatabase.filter(website =>
-    website.includes(searchInput)
-  );
+const googleSearch = (searchInput, db) => {
+  const matches = db.filter(website => website.includes(searchInput));
   return matches.length > 3 ? matches.slice(0, 3) : matches;
 };
 
-console.log(googleSearch('soup'));
+// console.log(googleSearch('cats', googleDatabase));
+
+module.exports = googleSearch;
