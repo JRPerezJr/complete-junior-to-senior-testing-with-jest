@@ -1,0 +1,15 @@
+{
+  "name": "testing",
+  "version": "1.0.0",
+  "description": "A testing exercise with Jest",
+  "main": "main.js",
+  "author": "Juan Perez Jr",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "jest": "^27.0.4"
+  },
+  "scripts": {
+    "test": "jest"
+  }
+}
