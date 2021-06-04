@@ -24,6 +24,6 @@
   "scripts": {
     "start": "node main",
     "dev": "nodemon main",
-    "test": "jest"
+    "test": "jest --watch *.js"
   }
 }
