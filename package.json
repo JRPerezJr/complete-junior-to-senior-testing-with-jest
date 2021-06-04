@@ -1,7 +1,7 @@
 {
   "name": "testing",
   "version": "1.0.0",
-  "description": "A testing exercise with Jest",
+  "description": "Testing exercises using the Jest testing library.",
   "main": "main.js",
   "author": "Juan Perez Jr",
   "license": "MIT",
