@@ -19,9 +19,11 @@
   },
   "main": "main.js",
   "devDependencies": {
-    "jest": "^27.0.4"
+    "jest": "^27.0.4",
+    "node-fetch": "^2.6.1"
   },
   "scripts": {
+    "async": "node async.js",
     "start": "node main",
     "dev": "nodemon main",
     "test": "jest --watch *.js"
