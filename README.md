@@ -32,12 +32,12 @@ yarn start
 yarn async
 ```
 
-## ⚙️ Dev mode
+## ⚙️ Dev mode `main.js` only
 ```sh
 yarn dev
 ```
 
-## Run 🧪tests
+## Run 🧪 tests
 
 ```sh
 yarn test
