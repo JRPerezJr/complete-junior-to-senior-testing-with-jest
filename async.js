@@ -1,5 +1,6 @@
 const fetch = require('node-fetch');
 
+// dependency injection (fetch)
 const getPokemonPromise = fetch => {
   return fetch('https://pokeapi.co/api/v2/pokemon')
     .then(response => response.json())
@@ -20,3 +21,8 @@ const getPokemonAsyncAwait = async fetch => {
 };
 
 // getPokemonAsyncAwait(fetch);
+
+module.exports = {
+  getPokemonPromise,
+  getPokemonAsyncAwait,
+};
