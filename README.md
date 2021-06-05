@@ -29,6 +29,12 @@ yarn
 
 ```sh
 yarn start
+yarn async
+```
+
+## ⚙️ Dev mode
+```sh
+yarn dev
 ```
 
 ## Run 🧪tests
